@@ -16,7 +16,7 @@ Se sigue el orden matemático estándar para garantizar la precisión del cálcu
 Permiten la toma de decisiones mediante la evaluación de valores de verdad.
 * **Relacionales:** `<`, `>`, `<=`, `>=`, `!=`, `=`.
 * **Lógicos:** `AND` (&&), `OR` (||), `NOT` (!). 
-> Ver detalles y tablas de verdad en: [Lógica Proposicional](../../../../CS-Theory/Fundamentos/Logica-Proposicional.md)
+> Ver detalles y tablas de verdad en: [Lógica Proposicional](../../../../../CS-Theory/Fundamentos/Logica-Proposicional.md)
 
 ---
 
@@ -36,7 +36,7 @@ Las variables son espacios reservados en memoria con un tipo de dato definido (i
 
 ## 📐 Diseño y Estructuras de Control
 Para representar algoritmos visualmente se utilizan **Diagramas de Flujo (DFD)**.
-> Ver catálogo de símbolos en: [Diagramación Lógica](../../../../CS-Theory/Fundamentos/Diagramas-Flujo.md)
+> Ver catálogo de símbolos en: [Diagramación Lógica](../../../../../CS-Theory/Fundamentos/Diagramas-Flujo.md)
 
 ### Estructuras de Control
 1. **Condicionales:** Simple (if), Compuesta (if else) y Múltiple (switch).
@@ -59,7 +59,7 @@ Los paradigmas son enfoques metodológicos para la resolución de problemas:
 ## ⚡ Algoritmos y Estructuras Avanzadas
 * **Recursividad:** Funciones que se invocan a sí mismas hasta alcanzar un caso base.
 * **Matrices:** Estructuras multidimensionales contiguas en memoria.
-* **Ordenamiento:** [Bubble Sort y Selección](../../../../CS-Theory/Algorithms/Indice-Algoritmos.md)
+* **Ordenamiento:** [Bubble Sort y Selección](../../../../../CS-Theory/Algorithms/Indice-Algoritmos.md)
 
 ---
 
