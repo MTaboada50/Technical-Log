@@ -8,3 +8,9 @@ Este curso cubre los fundamentos del pensamiento computacional y la lógica de p
 
 ---
 > **Estado:** En progreso ⏳
+
+## 🏆 Logro Obtenido
+* **Certificado:** [Lógica de Programación](./Certificado-Logica-Programacion.pdf)
+* **Puntaje:** 8.5/10
+* **Horas acreditadas:** 60 hrs.
+* **ID de Verificación:** 8E0A99E1-05F1-4D3E-B494-2B49EFA4C77F
