@@ -14,10 +14,14 @@ Fundamentales para optimizar la organización de la información y permitir bús
 * **Selection Sort $O(n^2)$:** Encuentra el elemento más pequeño y lo coloca al principio. Simple pero ineficiente en grandes volúmenes.
 * **Bubble Sort $O(n^2)$:** Compara elementos adyacentes y los intercambia si están en el orden incorrecto.
 * **Merge Sort $O(n \log n)$:** Algoritmo basado en *Divide y Vencerás* que divide la lista en mitades, las ordena y luego las combina.
+* **Inserción Directa $O(n^2)$:** Compara el elemento actual con los de su izquierda e inserta en la posición correcta. Eficiente para listas pequeñas o casi ordenadas.
 
 ## 3. Metodologías de Diseño
 * **Divide y Vencerás:** Estrategia que consiste en descomponer un problema complejo en subproblemas más pequeños del mismo tipo, hasta que sean lo suficientemente sencillos para ser resueltos directamente.
 * **Bucketizing:** Técnica de distribución de elementos en "baldes" o contenedores basados en una propiedad (como en las Tablas de Hash).
+
+### 4. Conceptos Avanzados
+* **Recursividad:** Técnica donde una función se llama a sí misma. Requiere un **Caso Base** para evitar bucles infinitos y un **Caso Recursivo**.
 
 ---
 Para entender cómo medir la eficiencia de estos algoritmos, consultar [Análisis de Complejidad (Big O)](./Complexity-Analysis.md).

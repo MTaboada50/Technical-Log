@@ -12,6 +12,12 @@ Registro de aprendizaje de programación, algoritmos y QA.
 - [03. Python Profesional](./Certificaciones/03-Python-Profesional/Python-Profesional.md)
 - [04. AWS Fundamentals](./Certificaciones/04-AWS-Fundamentals/AWS-Fundamentals.md)
 - [05. AWS Cloud Practitioner (Próximamente)](./Certificaciones/05-AWS-Cloud-Practitioner/AWS-Cloud-Practitioner.md)
+- [06. CapacitAR](./Certificaciones/06-CapacitAR/README.md): Programa de formación en Desarrollo Web con Python (Santander / IBM / Argentec).
 
 ### 📝 Notas de Estudio Continuo
+- **[Languages](./Languages/README.md)**: Índice de sintaxis y guías rápidas de lenguajes (C, Python, etc.).
 - (Aquí iré agregando enlaces a mis notas de FreeCodeCamp, CS50, CISCO, ORACLE, IBM, Linux, SQL, etc.)
+
+---
+> [!NOTE]
+> La lógica algorítmica y los fundamentos teóricos se documentan en la sección global [CS-Theory](../../CS-Theory/README.md) para mantener la independencia del lenguaje.

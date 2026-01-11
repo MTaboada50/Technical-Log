@@ -14,5 +14,8 @@ Catálogo de procedimientos, métodos de búsqueda, ordenamiento y eficiencia.
 ### 🗄️ [Estructuras de Datos](./Data-Structures/Intro-Estructuras.md)
 Organización de la información en memoria (Arrays, Listas, Hash Tables, Árboles).
 
+### 🏗️ [Paradigmas](./Paradigmas/Introduccion.md)
+Diferentes enfoques y metodologías para la resolución de problemas (Estructurada, POO, Declarativa, Paralela).
+
 ---
 > "La teoría es el capitán y la práctica son los soldados." — Leonardo da Vinci
