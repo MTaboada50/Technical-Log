@@ -5,7 +5,7 @@ Este apartado del repositorio está dedicado a la documentación de conceptos fu
 Las notas están estructuradas de forma atómica y categorizadas por áreas de estudio:
 
 ### 📑 [Fundamentos](./Fundamentos/README.md)
-Principios básicos, lógica de programación y metodologías de diseño ([Pseudocodigo](./Fundamentos/Pseudocodigo.md), Abstracción).
+Principios básicos, lógica de programación y metodologías de diseño (Pseudocodigo, Abstracción, etc).
 
 ### ⚡ [Algoritmos](./Algorithms/Indice-Algoritmos.md)
 Catálogo de procedimientos, métodos de búsqueda, ordenamiento y eficiencia.
