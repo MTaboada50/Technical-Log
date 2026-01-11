@@ -6,12 +6,15 @@ C es un lenguaje compilado de propósito general que permite un control preciso 
 Todo programa en C requiere una función principal `main` y la inclusión de bibliotecas estándar para realizar operaciones básicas mediante la directiva `#include`.
 
 ```c
+
 #include <stdio.h> // Biblioteca estándar de entrada y salida
 
 int main() {
     printf("Hola, Mundo\n");
     return 0; // Indica que el programa finalizó con éxito
-}   
+}
+
+```
 
 ---
 
@@ -21,10 +24,12 @@ int main() {
 * **`scanf()`**: Función para leer datos del usuario. Requiere el operador de dirección `&` (referencia) para conocer la ubicación en memoria donde debe almacenar el dato.
 
 ```c
+
 int edad;
 printf("Ingresa tu edad: ");
 scanf("%d", &edad); // %d es el especificador para enteros
 
+```
 ---
 
 ## 📦 Tipos de Datos y Especificadores
@@ -40,12 +45,16 @@ C utiliza especificadores de formato para la comunicación con el flujo de datos
 
 
 ### Ejemplo de uso en código:
+
 ```c
+
 int unidades = 10;
 float precio = 15.50;
 char categoria = 'A';
 
 printf("Stock: %d unidades de la categoria %c a $%.2f", unidades, categoria, precio);
+
+```
 
 ---
 
@@ -57,6 +66,7 @@ Permiten modificar el flujo de ejecución del programa basándose en condiciones
 Se utilizan para ejecutar diferentes bloques de código según el valor de verdad de una expresión.
 
 ```c
+
 if (condicion) {
     // Código si es verdadero
 } else if (otra_condicion) {
@@ -76,6 +86,8 @@ switch(variable) {
     default: 
         // código si no coincide ningún caso
 }
+
+```
 
 ### Bucles (Iteración)
 Permiten repetir un bloque de instrucciones múltiples veces mientras se cumpla una condición determinada.
@@ -99,6 +111,8 @@ do {
     printf("Este mensaje aparece al menos una vez");
 } while (condicion_falsa);
 
+```
+
 ---
 
 ## 📍 Punteros y Gestión de Memoria
@@ -111,12 +125,16 @@ Un puntero es una variable especializada que almacena la **dirección de memoria
 * **Indirección (`*p`)**: También llamado desreferenciación, permite acceder o modificar el valor real almacenado en la dirección que guarda el puntero.
 
 #### Ejemplo de uso:
+
 ```c
+
 int numero = 42;
 int *p = &numero; // p ahora apunta a la dirección de memoria de numero
 
 printf("Direccion: %p\n", (void*)p); // Imprime la ubicación en memoria
 printf("Valor: %d\n", *p);           // Accede al 42 mediante el puntero
+
+```
 
 ## 📦 Programación Modular (Funciones)
 
@@ -126,6 +144,7 @@ La programación modular consiste en dividir un programa en partes más pequeña
 Una función consta de un tipo de retorno, un nombre, parámetros (opcionales) y el cuerpo de la función.
 
 ```c
+
 // Definición de la función
 int sumar(int a, int b) {
     return a + b;
@@ -136,6 +155,8 @@ int main() {
     printf("El resultado es: %d", resultado);
     return 0;
 }
+
+```
 
 ---
 
@@ -167,3 +188,5 @@ Para utilizar una librería personalizada situada en el mismo directorio que el 
 ```c
 #include "mi_libreria.h" // Inclusión de una librería personalizada del programador
 #include <stdio.h>       // Inclusión de una librería estándar del sistema
+
+```
